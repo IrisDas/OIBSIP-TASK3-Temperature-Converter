@@ -13,7 +13,7 @@ const calculateTemp = () => {
     }
 
     const fahToCel = (fah) => {
-        let Celsius = Math.round((feh - 32) * 5/9);
+        let Celsius = Math.round((fah - 32) * 5/9);
         return Celsius;
     }
 
