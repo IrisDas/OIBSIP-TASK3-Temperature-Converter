@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <h1>Temperature converter</h1>
+    <div id="container">
+
+        <form id="tempcalc" onsubmit="calculateTemp(); return false">
+
+            <label for="temp">Enter The Temperature here:</label>
+            <br /> <input type="number" name="temp" id="temp" class="inp">
+
+            <div class="typ">types</div>
+
+            <select name="temp_diff" id="temp_diff">
+               
+                <option value="cel">°Celsius</option>
+                <option value="fah">°Fahrenheit</option>
+            </select><br />
+
+            <button class="btn">Convert</button> <br />
+            
+            <span id="resultContainer"></span>
+        </form>
+        <script src="script.js"></script>
+
+        <div class="tempimg">
+            <img src="https://thumbs.dreamstime.com/b/mercury-thermometer-isolated-white-background-focus-degree-medical-tools-145435298.jpg" width="200px" height="200px">
+            </div>
+
+    </div>
+
+    
+</body>
+
+</html>

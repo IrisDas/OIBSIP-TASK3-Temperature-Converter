@@ -1,0 +1,57 @@
+body {
+    padding: 100px 100px;
+    background-color: rgb(117, 242, 242);
+
+}
+h1 {
+    text-align: center;
+}
+#container {
+    text-align: center;
+    background-color: palevioletred;
+    padding: 60px;
+
+}
+#tempcalc{
+    display: inline-block;
+    margin: 30px;
+    font-size: 25px;
+    padding: 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#temp_diff{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.inp {
+    padding: 4px 4px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+}
+
+.btn{
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.tempimg{
+    margin: 20px;
+    margin-left: 45px;
+}
+
+.typ{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
